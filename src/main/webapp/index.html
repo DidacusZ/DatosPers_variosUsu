@@ -7,25 +7,16 @@
 </head>
 <body>
 
-<div class="container">
-
-	<div class="row">
-		<div class="col-12">
 			<h1>Datos Personales</h1>
-		</div>
-	</div>
-	
-	<div class="row">
-	
-		<div class="col-12">
+
 			<form>			
-				<label>Nombre:</label><input type="text" size="50" name="nombre"/>
+				<label>Nombre:</label><input type="text" size="50" name="nombre" required/>
 				<br><br>
-				<label>Apellidos:</label><input type="text" size="50" name="apellidos"/>
+				<label>Apellidos:</label><input type="text" size="50" name="apellidos" required/>
 				<br><br>
-				<label>Edad:</label><input type="number" size="50" name="edad"/>
+				<label>Edad:</label><input type="number" size="50" name="edad" required/>
 				<br><br>
-				<label>DNI:</label><input type="text" size="50" name="dni"/>
+				<label>DNI:</label><input type="text" size="50" name="dni" required/>
 				<br><br>
 				<input type="submit" name="Datos" onClick="GuardarDatos(this.form)"/>			
 			</form>
@@ -33,10 +24,6 @@
 			<a href="mostrarDatos.html"><button>Consultar</button></a>			
 			
 			
-		</div>
-	</div>
-
-</div>
 
 </body>
 </html>
