@@ -7,21 +7,17 @@
 </head>
 <body>
 
-<div class="row">
-	<div class="col-6">
-		<h1>Usuarios y sus Datos son los siguientes:</h1>
-	</div>
+
+<h1>Elige el usuario a buscar:</h1>
+
+	<form>
+		<label>DNI a consultar:</label><input type="text" size="50" name="dni"/>
+		<br><br>
+		<input type="submit" value="Consultar"name="Datos" onClick="Consultar(this.form)"/>			
+	</form>
+	<br>
+	<a href="index.html"><button>Volver</button></a>		
 	
-	<div class="col-6">
-		<a href="index.html"><button>Volver</button></a>
-		<!-- a:link, a:visited, a:active {text-decoration:none;} -->
-	</div>
-</div>
-
-
-	<script type="text/javascript">
-	MostrarDatos()
-	</script>
 
 
 </body>
